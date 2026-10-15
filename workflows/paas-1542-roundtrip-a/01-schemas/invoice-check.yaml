@@ -1,0 +1,19 @@
+created_by: keshav@mightybot.ai
+description: null
+is_active: true
+is_primary: false
+is_public: false
+last_modified_by: keshav@mightybot.ai
+name: invoice_check
+schema_definition:
+    properties:
+        passed:
+            type: boolean
+        reason:
+            type: string
+    required:
+        - passed
+    type: object
+title: Invoice Check
+type: WORKFLOW
+version: "1.0"
