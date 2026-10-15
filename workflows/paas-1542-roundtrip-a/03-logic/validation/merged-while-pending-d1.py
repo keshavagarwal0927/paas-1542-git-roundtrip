@@ -7,3 +7,5 @@ Input Schemas: invoice
 Output Schema: invoice_check
 ---
 """
+def run(payload: dict) -> dict:
+    return payload
