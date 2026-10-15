@@ -1,0 +1,15 @@
+created_by: keshav@mightybot.ai
+description: null
+is_active: true
+is_primary: false
+is_public: false
+last_modified_by: keshav@mightybot.ai
+name: temp_c
+schema_definition:
+    properties:
+        amount:
+            type: number
+    type: object
+title: Temp C
+type: WORKFLOW
+version: "1.0"

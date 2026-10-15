@@ -1,0 +1,18 @@
+# Workflow configuration
+agent_type: policy_agent
+config:
+    name: PAAS-1542 roundtrip A
+    workflow_model_tiers:
+        extraction: default
+created_by: d84e138a-70cb-41a3-a28a-d2ab7ea5cda3
+current_version_number: 0
+deleted_at: null
+deployment_source: platform
+description: local test of code-less rule round trip
+enterprise_id: 1a511a22-908a-4dd1-9d4e-7fcb45904f00
+name: PAAS-1542 roundtrip A
+name_slug: paas-1542-roundtrip-a
+project_identifier: []
+required_permissions: []
+signal_config: {}
+vcs_repo_config: null
