@@ -1,0 +1,22 @@
+created_by: keshav@mightybot.ai
+description: null
+is_active: true
+is_primary: true
+is_public: false
+last_modified_by: keshav@mightybot.ai
+name: invoice
+schema_definition:
+    properties:
+        invoice_number:
+            type: string
+        total:
+            type: number
+        vendor:
+            type: string
+    required:
+        - invoice_number
+        - total
+    type: object
+title: Invoice
+type: WORKFLOW
+version: "1.0"
